@@ -1,0 +1,97 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   text-align: center;
+    background-color: #FEF4E6;
+    border: 5px dashed red;
+    min-height: 100vh;
+}
+h2 {
+    text-transform: uppercase;
+    color: #DB6F6A;
+    border: 1px solid #DB6F6A;
+    margin: 0.7rem 0;
+    padding: 0.4rem 0.6rem;
+}
+h3 {
+    font-weight: bold;
+}
+i {
+    font-size: 2rem;
+}
+.acordion-close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 0.4rem 0;
+    margin-top: 1rem;
+}
+p {
+    letter-spacing: 3px;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.view {
+    transition: 2s;
+    display: block;
+}
+.hide {
+    display: none;
+}
