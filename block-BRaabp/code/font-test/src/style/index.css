@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Imbue:wght@100&family=Lato:wght@100&family=Montserrat:wght@100&family=Noto+Sans&family=Open+Sans:wght@300&family=Potta+One&family=Roboto:wght@100&family=Yusei+Magic&display=swap');
+
+.font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.font > input[type="text"] {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-right: 1px solid black;
+}
+.font > input[type="range"] {
+    width: 20%;
+    border-right: 1px solid black;
+    
+}
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.box {
+    border: 1px solid grey;
+    margin-top: 1rem;
+    padding: 0.2rem;
+}
